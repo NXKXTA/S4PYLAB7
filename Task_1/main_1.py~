@@ -1,8 +1,0 @@
-import sys
-from task1 import ChartWindow
-from PyQt6.QtWidgets import QApplication
-
-app = QApplication(sys.argv)
-window = ChartWindow()
-window.show()
-sys.exit(app.exec())
